@@ -17,7 +17,25 @@ category: project
 
 <div class="spacer"></div>
 
-
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("wvd");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
+  
 <section>
   <h2>An adaptive non-parametric short-time Fourier transform: Application to echolocation</h2>
 
@@ -35,24 +53,6 @@ category: project
     <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
     <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
   </div>
-  <script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
-  
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("stft");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";  
-    }
-    x[slideIndex-1].style.display = "block";  
-  }
-  </script>
   <h3>Paper Source: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0003682X14001698">Publication</a></h3>
   <p><strong>My role:</strong> Main developer</p>
   <p>
@@ -80,24 +80,6 @@ category: project
     <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
     <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
   </div>
-  <script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
-  
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("lvdt");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";  
-    }
-    x[slideIndex-1].style.display = "block";  
-  }
-  </script>
   <h3>Paper Source: <a href="https://ieeexplore.ieee.org/abstract/document/6934964">Publication</a></h3>
   <p><strong>My role:</strong> Main developer</p>
   <p>
@@ -132,24 +114,6 @@ category: project
     <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
     <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
   </div>
-  <script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
-  
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("csm");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";  
-    }
-    x[slideIndex-1].style.display = "block";  
-  }
-  </script>
   <h3>Paper Source: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231215001459">Publication</a></h3>
   <p><strong>My role:</strong> Main developer</p>
   <p>
@@ -176,24 +140,6 @@ category: project
     <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
     <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
   </div>
-  <script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
-  
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("wvd");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";  
-    }
-    x[slideIndex-1].style.display = "block";  
-  }
-  </script>
   <h3>Paper Source: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0888327013003853">Publication</a></h3>
   <p><strong>My role:</strong> Main developer</p>
   <p>
@@ -203,6 +149,7 @@ category: project
   </p>
 </section>
 <div class="spacer"></div>
+
 
 
 <section>
