@@ -357,10 +357,7 @@ tr.heading {
     border-bottom: 2px solid black;
 }
 img {
-   position: absolute;
-   left: 50%;
-   top: 50%;
-   -webkit-transform: translateY(-50%) translateX(-50%);
+border: none
 }
 table.imgtable, table.imgtable td {
     border: none;
