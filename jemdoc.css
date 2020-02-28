@@ -356,11 +356,7 @@ tr.heading {
     font-weight: bold;
     border-bottom: 2px solid black;
 }
-
 img {
-    border: none;
-}
-imgc {
    position: absolute;
    left: 50%;
    top: 50%;
