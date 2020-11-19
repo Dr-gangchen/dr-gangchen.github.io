@@ -125,7 +125,15 @@ h1, h2, h3 {
 	padding-top: 0.5em;
 	border-bottom: 1px solid #aaaaaa;
 }
-
+h3 {
+	color: #32033b;
+	margin-top: 0.7em;
+	margin-bottom: 0.3em;
+	padding-bottom: 0.2em;
+	line-height: 1.0;
+	padding-top: 0.5em;
+	border-bottom: 1px solid #aaaaaa;
+}
 h1 {
 	font-size: 165%;
 }
@@ -140,7 +148,7 @@ h2 + h3 {
 }
 
 h3 {
-	font-size: 110%;
+	font-size: 105%;
 	border-bottom: none;
 }
 
