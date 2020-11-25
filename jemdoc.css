@@ -125,7 +125,7 @@ h1, h2, h3 {
 	padding-top: 0.5em;
 	border-bottom: 1px solid #aaaaaa;
 }
-h3 {
+h4 {
 	color: #32033b;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
@@ -148,6 +148,10 @@ h2 + h3 {
 }
 
 h3 {
+	font-size: 105%;
+	border-bottom: none;
+}
+h4 {
 	font-size: 105%;
 	border-bottom: none;
 }
