@@ -15,12 +15,12 @@ body {
 
 #layout-menu {
 	background: #f6f6f6;
-	border: 10px solid #dddddd;
+	border: 1px solid #dddddd;
 	padding-top: 0.5em;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 8px;
+	padding-right: 8px;
 	font-size: 1.0em;
-	width: 80%;
+	width: auto;
 	white-space: nowrap;
     text-align: left;
     vertical-align: top;
